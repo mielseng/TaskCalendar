@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Календарь задач</string>
+    <string name="task_1">Подготовить отчёт по практике</string>
+    <string name="task_2">Изучить основы Kotlin</string>
+    <string name="task_3">Сделать лабораторную работу</string>
+    <string name="task_4">Подготовиться к занятию</string>
+    <string name="task_5">Повторить материал</string>
+</resources>

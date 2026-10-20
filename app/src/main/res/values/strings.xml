@@ -1,8 +1,53 @@
 <resources>
     <string name="app_name">Календарь задач</string>
+
+    <!-- Этап 1: задачи-заглушки (в приложении больше не используются, оставлены как материал этапа) -->
     <string name="task_1">Подготовить отчёт по практике</string>
     <string name="task_2">Изучить основы Kotlin</string>
     <string name="task_3">Сделать лабораторную работу</string>
     <string name="task_4">Подготовиться к занятию</string>
     <string name="task_5">Повторить материал</string>
+
+    <!-- Главный экран -->
+    <string name="main_title">Мои задачи</string>
+    <string name="add_task_content_description">Добавить задачу</string>
+
+    <!-- Карточка задачи в списке -->
+    <string name="task_date_time">%1$s %2$s</string>
+    <string name="task_status_done">Выполнена</string>
+    <string name="task_status_not_done">Не выполнена</string>
+
+    <!-- Форма добавления / редактирования -->
+    <string name="add_task_title">Добавление задачи</string>
+    <string name="hint_task_title">Название задачи</string>
+    <string name="hint_task_description">Описание задачи</string>
+    <string name="hint_task_date">Дата (например, 05.10.2026)</string>
+    <string name="hint_task_time">Время (например, 18:00)</string>
+    <string name="button_save_task">Сохранить задачу</string>
+    <string name="button_save_changes">Сохранить изменения</string>
+
+    <!-- Ошибки валидации и сообщения формы -->
+    <string name="error_title_empty">Введите название задачи</string>
+    <string name="error_date_empty">Введите дату</string>
+    <string name="error_time_empty">Введите время</string>
+    <string name="error_date_invalid">Введите корректную дату в формате ДД.ММ.ГГГГ</string>
+    <string name="error_time_invalid">Введите корректное время в формате ЧЧ:ММ</string>
+    <string name="toast_date_invalid">Некорректная дата</string>
+    <string name="toast_time_invalid">Некорректное время. Например: 18:30</string>
+    <string name="toast_task_saved">Задача сохранена</string>
+    <string name="toast_task_updated">Задача изменена</string>
+
+    <!-- Экран деталей задачи -->
+    <string name="details_screen_title">Задача</string>
+    <string name="details_no_description">Описание отсутствует</string>
+    <string name="details_date">Дата: %1$s</string>
+    <string name="details_time">Время: %1$s</string>
+    <string name="details_status_done">Статус: Выполнена</string>
+    <string name="details_status_not_done">Статус: Не выполнена</string>
+    <string name="button_edit">Редактировать</string>
+    <string name="button_mark_done">Отметить как выполненную</string>
+    <string name="button_return_to_not_done">Вернуть в невыполненные</string>
+    <string name="button_delete_task">Удалить задачу</string>
+    <string name="toast_task_not_found">Задача не найдена</string>
+    <string name="toast_task_deleted">Задача удалена</string>
 </resources>

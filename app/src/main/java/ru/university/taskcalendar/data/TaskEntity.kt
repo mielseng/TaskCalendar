@@ -1,6 +1,11 @@
-package ru.university.taskcalendar
+package ru.university.taskcalendar.data
+
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+
+/**
+ * Таблица `tasks` в базе данных Room: каждое поле класса — столбец таблицы.
+ */
 @Entity(tableName = "tasks")
 data class TaskEntity(
     @PrimaryKey(autoGenerate = true)

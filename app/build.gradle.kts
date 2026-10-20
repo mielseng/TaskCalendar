@@ -51,6 +51,9 @@ dependencies {
 
     ksp(libs.androidx.room.compiler)
 
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+
     testImplementation(libs.junit)
 
     androidTestImplementation(libs.androidx.espresso.core)

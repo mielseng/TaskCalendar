@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Taskcalendar">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -22,11 +22,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AddTaskActivity"
+            android:name=".ui.AddTaskActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".TaskDetailsActivity"
+            android:name=".ui.TaskDetailsActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>

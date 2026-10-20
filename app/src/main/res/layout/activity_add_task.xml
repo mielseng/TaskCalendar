@@ -10,7 +10,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Добавление задачи"
+            android:text="@string/add_task_title"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginBottom="24dp" />
@@ -18,14 +18,14 @@
             android:id="@+id/titleEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Название задачи"
+            android:hint="@string/hint_task_title"
             android:inputType="text"
             android:layout_marginBottom="16dp" />
         <EditText
             android:id="@+id/descriptionEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Описание задачи"
+            android:hint="@string/hint_task_description"
             android:inputType="textMultiLine"
             android:minLines="3"
             android:gravity="top"
@@ -34,20 +34,20 @@
             android:id="@+id/dateEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Дата (например, 05.10.2026)"
+            android:hint="@string/hint_task_date"
             android:inputType="text"
             android:layout_marginBottom="16dp" />
         <EditText
             android:id="@+id/timeEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Время (например, 18:00)"
+            android:hint="@string/hint_task_time"
             android:inputType="time"
             android:layout_marginBottom="24dp" />
         <Button
             android:id="@+id/saveTaskButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Сохранить задачу" />
+            android:text="@string/button_save_task" />
     </LinearLayout>
 </ScrollView>

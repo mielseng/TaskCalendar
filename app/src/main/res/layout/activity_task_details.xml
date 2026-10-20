@@ -10,7 +10,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Задача"
+            android:text="@string/details_screen_title"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginBottom="24dp" />
@@ -49,18 +49,18 @@
             android:id="@+id/editTaskButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Редактировать"
+            android:text="@string/button_edit"
             android:layout_marginBottom="12dp" />
         <Button
             android:id="@+id/completeTaskButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Отметить как выполненную"
+            android:text="@string/button_mark_done"
             android:layout_marginBottom="12dp" />
         <Button
             android:id="@+id/deleteTaskButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Удалить задачу" />
+            android:text="@string/button_delete_task" />
     </LinearLayout>
 </ScrollView>
